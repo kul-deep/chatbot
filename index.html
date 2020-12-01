@@ -1,0 +1,28 @@
+
+<html>
+  <head>
+    <title>
+        Insurance Bot
+      </title>
+    
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "0540deff-c9e4-484c-9486-53a7ca5b4a96", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "e1b09be2-add2-4af1-b2ae-d07c19a73b5e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+    <style>
+      html {background-color: black}
+    </style>
+</head>
+  <body>
+    Doctor's Appointment Bot
+    </body>
+  </html>
